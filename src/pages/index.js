@@ -14,6 +14,7 @@ export default function Homepage(props) {
         const Component = sections[blocktype] || Fallback
         return <Component key={id} {...componentProps} />
       })}
+      <h1>This is sample HTML header</h1>
     </Layout>
   )
 }
